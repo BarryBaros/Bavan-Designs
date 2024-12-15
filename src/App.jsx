@@ -1,11 +1,10 @@
-
+import Header from "./components/Header";
 function App() {
-  
   return (
     <div>
-Bavan Designs
+      <Header />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

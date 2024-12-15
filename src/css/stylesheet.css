@@ -1,0 +1,23 @@
+.container {
+    width: 700px;
+    height: 500px;
+    background-color: black;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  align-items: ;
+}
+
+.header {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: right;
+  color: aliceblue;
+}
+
+.header4 {
+  justify-content: right;
+}
