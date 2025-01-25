@@ -1,17 +1,31 @@
 import bavanLogo from "../images/Bavan logo.png";
-import "../css/stylesheet.css";
+import styles from "./header.module.css";
+import { FaShoppingCart, FaHome, FaSearch } from "react-icons/fa";
+
 function Header() {
   return (
-    <div className="container">
-    <div className="header">
-      <img src={bavanLogo} alt="Bavan Designs Logo" />
-      <h1 className="header1">Bavan Designs</h1>
-      <h4 className="header4">Home</h4>
-      <h4 className="header4">About Us</h4>
-      <h4 className="header4">Product</h4>
-      <h4 className="header4">Shop</h4>
-      <h4 className="header4">Contact</h4>
-    </div>
+    <div className={styles.container}>
+      <div className={styles.header}>
+        <img src={bavanLogo} alt="Bavan Designs Logo" />
+      </div>
+
+      <div className={styles.header4}>
+        <a href="home" target="#">
+          <FaHome className={styles.icon} />
+          Home
+        </a>
+        <a href="men">Men</a>
+        <a href="women">Women</a>
+        <a href="kids">Kids</a>
+        <a href="shop">
+          {" "}
+          <FaShoppingCart className={styles.icon} /> Shop{" "}
+        </a>
+        <a href="contact">Contact</a>
+        <a href="">
+          <FaSearch />
+        </a>
+      </div>
     </div>
   );
 }
