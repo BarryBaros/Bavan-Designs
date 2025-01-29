@@ -14,7 +14,6 @@
   outline-width: 10px;
 }
 
-
 img {
   width: 70px;
   height: 70px;
@@ -42,20 +41,21 @@ img {
 
 .header4 a {
   text-decoration: none;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
   cursor: pointer;
   margin: 0 50px;
   margin-top: 5px;
-  display:flex;
+  display: flex;
   color: gold;
   padding: 5px;
- }
+}
 
- .icon{
+.icon {
   margin-right: 5px;
- }
+}
 
 .header4 a:hover {
   color: white;
-  text-decoration: underline; 
+  text-decoration: underline;
 }

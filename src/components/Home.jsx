@@ -1,4 +1,4 @@
-import nike1 from "../images/Nike1.jpg";
+import nike1 from "../images/Nike1.png";
 import styles from "./home.module.css";
 
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
@@ -6,18 +6,17 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <div>
-        <h1 className={styles.title}>
-          {" "}
-          BAVAN DESIGNS
-          {/* <h2 className={styles.title1}> Designs</h2> */}
-        </h1>
-        <p className={styles.tagline}>We Dress you for the Occasion</p>
+        <h1 className={styles.title}> BAVAN DESIGNS</h1>
+        <p className={styles.tagline}>We are your Sole mate</p>
         <div className={styles.nike1}>
           <img src={nike1} alt="" />
         </div>
       </div>
 
-      {/* <button className={styles.orderbtn}>ORDER</button> */}
+      <div className={styles.yearshop}>
+        <div className={styles.year}> 2025</div>
+        <div className={styles.shop}> SHOP</div>
+        </div>
 
       <div className={styles.socialfooter}>
         <div className={styles.copyright}>
